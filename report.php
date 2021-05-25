@@ -1,5 +1,5 @@
 <?php 
-include('koneksi.php');
+include('koneksilatihan.php');
 // Menggunakan dompdf
 require_once("dompdf/autoload.inc.php");
 use Dompdf\Dompdf;
