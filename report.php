@@ -4,7 +4,7 @@ include('koneksilatihan.php');
 require_once("dompdf/autoload.inc.php");
 use Dompdf\Dompdf;
 $dompdf = new Dompdf ();
-$query = mysqli_query($koneksi,"SELECT * FROM siswa");
+$query = mysqli_query($koneksi,"SELECT * FROM tb_latihan");
 $html = '<center><h3>Daftar Nama Siswa</h3></center><hr/><br/>';
 $html .= '<table border="1" width="100%">
 <tr>
